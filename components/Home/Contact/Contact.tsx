@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="mt-7">
             <div className="flex items-center spáce-x-3 mb-4">
               <BiPhone className="w-9 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400"> +21234221212</p>
+              <p className="text-xl font-bold text-gray-400"> +55</p>
             </div>
             <div className="flex items-center spáce-x-3 mb-4">
               <BiEnvelope className="w-9 h-9 text-cyan-300" />
