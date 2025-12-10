@@ -25,14 +25,14 @@ const Hero = () => {
           className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wider"
         >
           I build things that <span className="text-cyan-200"> work </span>{" "}
-          <br /> <span className="text-cyan-200"> and I build them well !</span>
+          <br /> <span className="text-cyan-200">and I build them well.</span>
         </h1>
         <h2
           data-aos="fade-up"
           data-aos-delay="400"
           className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium items-center"
         >
-          Hi ! I&apos;m Davi P. Oliveira - A Relentless
+          Hi ! I&apos;m Davi P. Oliveira - A Relentless Developer
           <span className="text-cyan-200 font-bold">
             <Typewriter
               options={{
