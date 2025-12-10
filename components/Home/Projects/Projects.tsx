@@ -96,6 +96,7 @@ export default Projects;
 
 /* -------- REUSABLE SUBCOMPONENTS -------- */
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Section = ({ title, children }: any) => (
   <div className="mt-16">
     <h2 className="text-xl md:text-2xl font-semibold text-cyan-300 mb-6 text-center">
@@ -105,6 +106,7 @@ const Section = ({ title, children }: any) => (
   </div>
 );
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ProjectGrid = ({ children }: any) => (
   <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
     {children}
