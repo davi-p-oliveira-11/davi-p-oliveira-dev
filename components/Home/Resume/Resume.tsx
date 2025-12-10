@@ -3,14 +3,13 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
 import { BsDatabase } from "react-icons/bs";
-import { FaCodepen, FaReact } from "react-icons/fa";
+import { FaCodepen, FaReact, FaServer } from "react-icons/fa";
 import { BiBadge } from "react-icons/bi";
 
 const Resume = () => {
   return (
     <div className="pt-20 pb-16">
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10">
-
         {/* Work Experience */}
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
@@ -39,7 +38,7 @@ const Resume = () => {
             <ResumeCard
               Icon={BsDatabase}
               role="Backend Developer — Personal Labs"
-              date="2023 – Present"
+              date="2024 – Present"
               description="Designing APIs, authentication flows and backend structures with Node.js, Express and TypeScript."
             />
           </div>
@@ -60,26 +59,25 @@ const Resume = () => {
             <ResumeCard
               Icon={BiBadge}
               role="A.S. in Systems Analysis and Development"
-              date="2023 – Present"
-              description="Currently advancing through software engineering fundamentals, algorithms and system design."
+              date="Apr 2023 – Oct 2025"
+              description="Focused on software engineering principles, algorithms, database fundamentals and modern web development practices."
             />
 
             <ResumeCard
               Icon={FaReact}
-              role="React & TypeScript Specialization"
-              date="2023 – 2024"
-              description="Focused on building scalable interfaces using React, TypeScript and modern development patterns."
+              role="Web Development — MERN & PERN Stack"
+              date="2022 – Present"
+              description="Autodidact focused on consistent growth: building with React, TypeScript and full-stack architectures through disciplined, continuous learning."
             />
 
             <ResumeCard
-              Icon={BsDatabase}
-              role="Node.js Backend Development Track"
-              date="2023 – 2024"
-              description="Studying API design, database integration and backend logic for scalable applications."
+              Icon={FaServer}
+              role="DevOps & Cloud Foundations"
+              date="2025 – Present"
+              description="Developing a solid foundation in modern infrastructure through Docker containerization, Kubernetes orchestration, core AWS services and CI/CD automation practices."
             />
           </div>
         </div>
-
       </div>
     </div>
   );
