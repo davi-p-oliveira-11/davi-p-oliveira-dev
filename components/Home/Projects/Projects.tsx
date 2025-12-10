@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 import { projectsData } from "./ProjectData";
 
 const Projects = () => {
-  const completeProjects = projectsData.filter((p) => p.type === "complete");
+  // const completeProjects = projectsData.filter((p) => p.type === "complete");
   const miniProjects = projectsData.filter((p) => p.type === "mini");
   const landingProjects = projectsData.filter((p) => p.type === "landing");
 

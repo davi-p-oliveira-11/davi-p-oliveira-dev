@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 type ProjectCardProps = {
   title: string;
-  category: string;
+  category: string[];
   img: string;
   demoUrl: string;
   githubUrl?: string;
@@ -41,7 +41,13 @@ const ProjectCard = ({
           <h1 className="text-xl sm:text-2xl font-semibold text-white">
             {title}
           </h1>
-          <p className="pt-1 text-white/70">{category}</p>
+          <div className="pt-1 flex flex-wrap gap-2">
+            {category.map((category, i) => (
+              <span key={i} className="text-white/70 text-sm">
+                {category}
+              </span>
+            ))}
+          </div>
         </div>
 
         {githubUrl && (
