@@ -12,7 +12,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s4.png"
             name="Web Development"
-            description="Building high-performance, scalable, and modern web applications using the latest technologies."
+            description="Structured, efficient and purpose-driven web applications built with clarity and consistency."
           />
         </div>
         <div
