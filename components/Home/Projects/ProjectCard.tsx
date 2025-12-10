@@ -8,6 +8,7 @@ type ProjectCardProps = {
   demoUrl: string;
   githubUrl?: string;
   description?: string;
+  technologies?: string[];
 };
 
 const ProjectCard = ({
@@ -17,6 +18,7 @@ const ProjectCard = ({
   demoUrl,
   githubUrl,
   description,
+  technologies,
 }: ProjectCardProps) => {
   return (
     <div
@@ -52,6 +54,19 @@ const ProjectCard = ({
           </a>
         )}
       </div>
+
+      {technologies && (
+        <div className="mt-2 flex flex-wrap gap-2">
+          {technologies.map((tech, i) => (
+            <span
+              key={i}
+              className="text-xs px-2 py-1 bg-cyan-800 rounded-md text-white"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* DESCRIPTION — 3 LINHAS */}
       {description && (

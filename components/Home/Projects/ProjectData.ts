@@ -7,16 +7,19 @@ export interface ProjectData {
   demoUrl: string;
   githubUrl?: string;
   description?: string;
+  technologies?: string[];
   type: ProjectType;
 }
 
 export const projectsData: ProjectData[] = [
   {
-    title: "Modern Finance Dashboard UI",
-    category: "Apps, UI/UX",
+    title: "Groclone Analytics Landing Page",
+    category: "Landing Pages, Front-End", 
     img: "/images/p1.jpg",
-    demoUrl: "https://seu-projeto.com",
-    githubUrl: "https://github.com/seu-repo",
+    demoUrl: "https://groclone-nine.vercel.app/",
+    githubUrl: "https://github.com/davi-p-oliveira-11/groclone",
+    description: "lorem ipsum",
+    technologies: ["React", "TailwindCSS", "NextJs"], 
     type: "landing",
   },
   {
