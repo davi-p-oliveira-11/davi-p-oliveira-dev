@@ -51,6 +51,7 @@ const Hero = () => {
           </span>
         </h2>
         <button
+          onClick={() => document.getElementById("works").scrollIntoView({ behavior: "smooth" })}
           data-aos="fade-up"
           data-aos-delay="600"
           className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium"
