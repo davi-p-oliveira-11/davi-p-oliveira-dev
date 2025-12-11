@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import {
   SiJavascript,
   SiNextdotjs,
@@ -8,35 +7,55 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiAngular,
+  SiVite,
+  SiSpringboot,
+  SiMongodb,
+  SiPostgresql,
+  SiExpress,
+  SiPrisma,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiPostman,
+  SiJest,
+  SiFigma,
+  SiRedux
 } from "react-icons/si";
+
 
 import Tilt from "react-parallax-tilt";
 
 const skills = [
-  {
-    name: "JavaScript",
-    icon: <SiJavascript />,
-  },
-  {
-    name: "React",
-    icon: <SiReact />,
-  },
-  {
-    name: "Next.js",
-    icon: <SiNextdotjs />,
-  },
-  {
-    name: "Node.js",
-    icon: <SiNodedotjs />,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss />,
-  },
-  {
-    name: "Typescript",
-    icon: <SiTypescript />,
-  },
+  // Frontend
+  { name: "JavaScript", icon: <SiJavascript /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "React", icon: <SiReact /> },
+  { name: "Next.js", icon: <SiNextdotjs /> },
+  { name: "Angular", icon: <SiAngular /> },
+  { name: "Vite", icon: <SiVite /> },
+  { name: "HTML5", icon: <SiHtml5 /> },
+  { name: "CSS3", icon: <SiCss3 /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+  { name: "Redux / Zustand", icon: <SiRedux /> },
+
+  // Backend
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "Express", icon: <SiExpress /> },
+  { name: "Spring Boot", icon: <SiSpringboot /> },
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "Prisma ORM", icon: <SiPrisma /> },
+  { name: "Docker", icon: <SiDocker /> },
+
+  // Tools
+  { name: "Git", icon: <SiGit /> },
+  { name: "GitHub", icon: <SiGithub /> },
+  { name: "Postman", icon: <SiPostman /> },
+  { name: "Jest", icon: <SiJest /> },
+  { name: "Figma", icon: <SiFigma /> },
 ];
 
 const Skills = () => {
