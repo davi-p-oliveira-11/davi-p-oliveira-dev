@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 import { projectsData } from "./ProjectData";
 
 const Projects = () => {
-  // const completeProjects = projectsData.filter((p) => p.type === "complete");
+  const completeProjects = projectsData.filter((p) => p.type === "complete");
   const miniProjects = projectsData.filter((p) => p.type === "mini");
   const landingProjects = projectsData.filter((p) => p.type === "landing");
 
@@ -29,6 +29,17 @@ const Projects = () => {
         A small selection of recent <br />
         <span className="text-cyan-300">projects</span>
       </h1>
+      
+      {/* Full stack projects */}
+      {completeProjects.length > 0 && (
+        <Section title="Full-Stack Projects">
+          <ProjectGrid>
+            {completeProjects.map((proj, i) => (
+              <ProjectCard key={i} {...proj} />
+            ))}
+          </ProjectGrid>
+        </Section>
+      )}
 
       {/* LANDING PAGES */}
       {landingProjects.length > 0 && (
@@ -75,19 +86,6 @@ const Projects = () => {
           )}
         </Section>
       )}
-
-      {/* COMPLETE PROJECTS (opcional para depois) */}
-      {/* 
-      {completeProjects.length > 0 && (
-        <Section title="Featured Projects (Complete)">
-          <ProjectGrid>
-            {completeProjects.map((proj, i) => (
-              <ProjectCard key={i} {...proj} />
-            ))}
-          </ProjectGrid>
-        </Section>
-      )}
-      */}
     </div>
   );
 };

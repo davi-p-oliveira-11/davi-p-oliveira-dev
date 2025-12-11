@@ -69,6 +69,15 @@ export const projectsData: ProjectData[] = [
     type: "landing",
   },
   {
+    title: "Hoobank LP",
+    category: ["Landing Pages", "Front-End"],
+    img: "/images/hoobank.png",
+    demoUrl: "hhttps://hoobank-nu-three.vercel.app/",
+    description: "A sleek and modern banking landing page built to showcase financial services with a clean, futuristic design.",
+    technologies: ["React", "TailwindCSS"],
+    type: "landing",
+  },
+  {
     title: "Gericht Restaurant",
     category: ["Landing Pages", "Front-End"],
     img: "/images/gericht.png",
@@ -106,4 +115,88 @@ export const projectsData: ProjectData[] = [
     technologies: ["React", "TailwindCSS"],
     type: "landing",
   },
+
+  /* Mini -Projects utilities */
+
+  {
+    title: "Voltaris Password Generator",
+    category: ["Front-End", "Utilities"],
+    img: "/images/pwd-generator.png",
+    demoUrl: "https://voltaris-password-generator.vercel.app/",
+    githubUrl: "https://github.com/davi-p-oliveira-11/voltaris-password-generator",
+    description: "A clean and efficient password generator built with React, TypeScript, and Zustand for state management. Users can generate secure passwords with customizable length and character sets. Styled with TailwindCSS, featuring a minimalist and responsive UI for a smooth user experience.",
+    technologies: ["React", "Typescript", "TailwindCSS", "Zustand"],
+    type: "mini",
+  },
+  {
+    title: "Voltaris To-Do-List",
+    category: ["Front-End", "Utilities"],
+    img: "/images/todo.png",
+    demoUrl: "https://voltaris-todo-list.vercel.app/",
+    githubUrl: "https://github.com/davi-p-oliveira-11/voltaris-todo-list/tree/main",
+    description: "A lightweight task manager built with React and TypeScript, featuring task creation, completion toggling, and deletion. Focused on clean UI, component structure, and state management using Zustand.",
+    technologies: ["React", "Typescript", "TailwindCSS", "Zustand"],
+    type: "mini",
+  },
+  {
+    title: "Wallet Watch",
+    category: ["Front-End", "Utilities"],
+    img: "/images/walletwatch.png",
+    demoUrl: "https://wallet-watch-delta.vercel.app/",
+    githubUrl: "https://github.com/davi-p-oliveira-11/WalletWatch",
+    description: "A simple and intuitive expense-tracking tool that helps users organize their daily spending. Built with React and TailwindCSS, it features real-time balance updates, categorized expenses, and a clean, responsive interface.",
+    technologies: ["React", "Javascript", "TailwindCSS"],
+    type: "mini",
+  },
+  // fullstack projects
+
+  {
+    title: "MERN SaaS Platform",
+    category: ["Full-Stack", "MERN"],
+    img: "/images/placeholder.jpg",
+    demoUrl: "#",
+    githubUrl: "#",
+    description:
+      "A full MERN-stack SaaS application featuring authentication, dashboard, and API integrations. Currently under development.",
+    technologies: ["MongoDB", "Express", "React", "Node.js", "TailwindCSS"],
+    type: "complete",
+  },
+  {
+    title: "PERN Management System",
+    category: ["Full-Stack", "PERN"],
+    img: "/images/placeholder.jpg",
+    demoUrl: "#",
+    githubUrl: "#",
+    description:
+      "A Postgres-based management system using Express, React, and Node.js. Includes CRUD operations and REST API structure. In progress.",
+    technologies: ["PostgreSQL", "Express", "React", "Node.js"],
+    type: "complete",
+  },
+  {
+    title: "Angular + Spring Boot App",
+    category: ["Full-Stack", "Java"],
+    img: "/images/placeholder.jpg",
+    demoUrl: "#",
+    githubUrl: "#",
+    description:
+      "A modern Angular frontend connected to a Spring Boot back-end, featuring authentication and database integration. In development.",
+    technologies: ["Angular", "TypeScript", "Java", "Spring Boot", "PostgreSQL"],
+    type: "complete",
+  },
+  {
+    title: "Portfolio v1",
+    category: ["Front-End", "Full-Stack"],
+    img: "/images/placeholder.jpg",
+    demoUrl: "https://davi-p-oliveira-dev.vercel.app",
+    githubUrl: "https://github.com/seu-repo",
+    description:
+      "A modern portfolio website with animations, optimized UI, responsive layout, and future email API integration.",
+    technologies: ["React", "Next.js", "TailwindCSS", "AOS"],
+    type: "complete",
+  },
 ];
+
+export const completeProjects = [
+
+];
+
