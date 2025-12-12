@@ -151,14 +151,22 @@ export const projectsData: ProjectData[] = [
   // fullstack projects
 
   {
-    title: "MERN SaaS Platform",
+    title: "Carepilot",
     category: ["Full-Stack", "MERN"],
-    img: "/images/placeholder.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    img: "/images/carepilot.png",
+    demoUrl: "https://carepilot-app-xyly.vercel.app/",
+    githubUrl: "https://github.com/davi-p-oliveira-11/carepilot-app/tree/main",
     description:
-      "A full MERN-stack SaaS application featuring authentication, dashboard, and API integrations. Currently under development.",
-    technologies: ["MongoDB", "Express", "React", "Node.js", "TailwindCSS"],
+      "A full MERN-stack medical appointment platform featuring patient/doctor management, authentication, scheduling flow, and dynamic data handling. Currently under active development with ongoing backend expansion.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React (Vite + TypeScript)",
+      "Node.js",
+      "TailwindCSS",
+      "Context API",
+      "REST API"
+    ],
     type: "complete",
   },
   {
